@@ -1,2 +1,0 @@
-# codoacodo
-Mi primer repositorio
