@@ -1,18 +1,23 @@
-package primerospasos;
+package primerospasos.inicial;
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int num1;
-        String nombre;
-        double num2;
+        String nombre, apellido;
+        int num1, num2;
+        Scanner sc = new Scanner(System.in);
 
-        num1 = 10;
-        num2 = 12.3;
-        nombre = "Juan";
+        System.out.println("Ingrese su nombre:");
+        nombre = sc.nextLine();
+        System.out.println("Ingrese su apellido:");
+        apellido = sc.nextLine();
 
-        //Escribir "El numero es: ", num1; en PSeInt
-        System.out.println("El primer número es: " + num1);
-        System.out.println("El segundo número es: " + num2);
-        System.out.println("La suma de los dos números es: " + (num1 + num2));
-        System.out.println("El nombre es: " + nombre);
+        System.out.println("Ingrese un número:");
+        num1 = sc.nextInt();
+        System.out.println("Ingrese otro número:");
+        num2 = sc.nextInt();
+
+
     }
 }
